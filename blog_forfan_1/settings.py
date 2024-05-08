@@ -125,7 +125,7 @@ STATICFILES_DIRS = [
 ]
 
 # 静态文件收集目录
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+STATIC_ROOT = os.path.join(BASE_DIR, 'collected_static')
 
 STATIC_URL = 'static/'
 
